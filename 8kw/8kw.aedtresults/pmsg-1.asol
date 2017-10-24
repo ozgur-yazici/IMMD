@@ -1,0 +1,267 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002017, month=000000000010, day=000000000024, hour=000000000020, min=000000000035, sec=000000000017)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000014312, lin=000000000245, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock77'
+	SolutionName='Performance'
+	SolutionID=1
+	V=628
+	$begin 'States'
+		F(VID=488, Ver=628)
+		F(VID=489, Ver=628)
+		F(VID=490, Ver=628)
+		F(VID=491, Ver=628)
+		F(VID=492, Ver=628)
+		F(VID=493, Ver=628)
+		F(VID=494, Ver=628)
+		F(VID=495, Ver=628)
+		F(VID=496, Ver=628)
+		F(VID=497, Ver=628)
+		F(VID=498, Ver=628)
+		F(VID=499, Ver=628)
+		F(VID=500, Ver=628)
+		F(VID=501, Ver=628)
+		F(VID=502, Ver=628)
+		F(VID=503, Ver=628)
+		F(VID=504, Ver=628)
+		F(VID=505, Ver=628)
+		F(VID=506, Ver=628)
+		F(VID=507, Ver=628)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'SolutionDataFiles'
+		MSolutionData(VID=488, Ver=628, Dir='DV488_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=489, Ver=628, Dir='DV489_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=490, Ver=628, Dir='DV490_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=491, Ver=628, Dir='DV491_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=492, Ver=628, Dir='DV492_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=493, Ver=628, Dir='DV493_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=494, Ver=628, Dir='DV494_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=495, Ver=628, Dir='DV495_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=496, Ver=628, Dir='DV496_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=497, Ver=628, Dir='DV497_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=498, Ver=628, Dir='DV498_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=499, Ver=628, Dir='DV499_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=500, Ver=628, Dir='DV500_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=501, Ver=628, Dir='DV501_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=502, Ver=628, Dir='DV502_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=503, Ver=628, Dir='DV503_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=504, Ver=628, Dir='DV504_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=505, Ver=628, Dir='DV505_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=506, Ver=628, Dir='DV506_SOL1_V628.MSolutionData/')
+		MSolutionData(VID=507, Ver=628, Dir='DV507_SOL1_V628.MSolutionData/')
+	$end 'SolutionDataFiles'
+	$begin 'SolverDataFiles'
+		MSolverData(VID=488, Ver=628, File='DV488_SOL1_V628.MSolverData')
+		MSolverData(VID=489, Ver=628, File='DV489_SOL1_V628.MSolverData')
+		MSolverData(VID=490, Ver=628, File='DV490_SOL1_V628.MSolverData')
+		MSolverData(VID=491, Ver=628, File='DV491_SOL1_V628.MSolverData')
+		MSolverData(VID=492, Ver=628, File='DV492_SOL1_V628.MSolverData')
+		MSolverData(VID=493, Ver=628, File='DV493_SOL1_V628.MSolverData')
+		MSolverData(VID=494, Ver=628, File='DV494_SOL1_V628.MSolverData')
+		MSolverData(VID=495, Ver=628, File='DV495_SOL1_V628.MSolverData')
+		MSolverData(VID=496, Ver=628, File='DV496_SOL1_V628.MSolverData')
+		MSolverData(VID=497, Ver=628, File='DV497_SOL1_V628.MSolverData')
+		MSolverData(VID=498, Ver=628, File='DV498_SOL1_V628.MSolverData')
+		MSolverData(VID=499, Ver=628, File='DV499_SOL1_V628.MSolverData')
+		MSolverData(VID=500, Ver=628, File='DV500_SOL1_V628.MSolverData')
+		MSolverData(VID=501, Ver=628, File='DV501_SOL1_V628.MSolverData')
+		MSolverData(VID=502, Ver=628, File='DV502_SOL1_V628.MSolverData')
+		MSolverData(VID=503, Ver=628, File='DV503_SOL1_V628.MSolverData')
+		MSolverData(VID=504, Ver=628, File='DV504_SOL1_V628.MSolverData')
+		MSolverData(VID=505, Ver=628, File='DV505_SOL1_V628.MSolverData')
+		MSolverData(VID=506, Ver=628, File='DV506_SOL1_V628.MSolverData')
+		MSolverData(VID=507, Ver=628, File='DV507_SOL1_V628.MSolverData')
+	$end 'SolverDataFiles'
+	$begin 'ExportDataFiles'
+		MExportData(VID=488, Ver=628, Dir='DV488_SOL1_V628.MExportData/')
+		MExportData(VID=489, Ver=628, Dir='DV489_SOL1_V628.MExportData/')
+		MExportData(VID=490, Ver=628, Dir='DV490_SOL1_V628.MExportData/')
+		MExportData(VID=491, Ver=628, Dir='DV491_SOL1_V628.MExportData/')
+		MExportData(VID=492, Ver=628, Dir='DV492_SOL1_V628.MExportData/')
+		MExportData(VID=493, Ver=628, Dir='DV493_SOL1_V628.MExportData/')
+		MExportData(VID=494, Ver=628, Dir='DV494_SOL1_V628.MExportData/')
+		MExportData(VID=495, Ver=628, Dir='DV495_SOL1_V628.MExportData/')
+		MExportData(VID=496, Ver=628, Dir='DV496_SOL1_V628.MExportData/')
+		MExportData(VID=497, Ver=628, Dir='DV497_SOL1_V628.MExportData/')
+		MExportData(VID=498, Ver=628, Dir='DV498_SOL1_V628.MExportData/')
+		MExportData(VID=499, Ver=628, Dir='DV499_SOL1_V628.MExportData/')
+		MExportData(VID=500, Ver=628, Dir='DV500_SOL1_V628.MExportData/')
+		MExportData(VID=501, Ver=628, Dir='DV501_SOL1_V628.MExportData/')
+		MExportData(VID=502, Ver=628, Dir='DV502_SOL1_V628.MExportData/')
+		MExportData(VID=503, Ver=628, Dir='DV503_SOL1_V628.MExportData/')
+		MExportData(VID=504, Ver=628, Dir='DV504_SOL1_V628.MExportData/')
+		MExportData(VID=505, Ver=628, Dir='DV505_SOL1_V628.MExportData/')
+		MExportData(VID=506, Ver=628, Dir='DV506_SOL1_V628.MExportData/')
+		MExportData(VID=507, Ver=628, Dir='DV507_SOL1_V628.MExportData/')
+	$end 'ExportDataFiles'
+	$begin 'CurvesDataFiles'
+		MCurvesData(VID=488, Ver=628, Dir='DV488_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=489, Ver=628, Dir='DV489_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=490, Ver=628, Dir='DV490_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=491, Ver=628, Dir='DV491_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=492, Ver=628, Dir='DV492_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=493, Ver=628, Dir='DV493_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=494, Ver=628, Dir='DV494_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=495, Ver=628, Dir='DV495_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=496, Ver=628, Dir='DV496_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=497, Ver=628, Dir='DV497_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=498, Ver=628, Dir='DV498_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=499, Ver=628, Dir='DV499_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=500, Ver=628, Dir='DV500_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=501, Ver=628, Dir='DV501_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=502, Ver=628, Dir='DV502_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=503, Ver=628, Dir='DV503_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=504, Ver=628, Dir='DV504_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=505, Ver=628, Dir='DV505_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=506, Ver=628, Dir='DV506_SOL1_V628.MCurvesData/')
+		MCurvesData(VID=507, Ver=628, Dir='DV507_SOL1_V628.MCurvesData/')
+	$end 'CurvesDataFiles'
+$end 'SolutionBlock77'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock4'
+	'SolutionKey(SimSetup=0, Instance=\'SetupDefinition\', Solution=-1, VersionID=628)'='SolutionBlock78'
+	'SolutionKey(SimSetup=0, Instance=\'SolutionDefinition\', Solution=1, VersionID=628)'='SolutionBlock77'
+$end 'BlockMapName'
+$begin 'SolutionBlock78'
+	SimSetupID=0
+	SimSetupName='Setup1'
+	VersionID=628
+	SolveSetupID=0
+$end 'SolutionBlock78'
+$begin 'SolutionBlock4'
+	ProductName=''
+	CircuitName='pmsg-1'
+	VersionID=628
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=667
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=39)
+		Map(V='power=\'10000W\'', ID=453)
+		Map(V='power=\'1000W\'', ID=436)
+		Map(V='power=\'1500W\'', ID=437)
+		Map(V='power=\'2000W\'', ID=438)
+		Map(V='power=\'2500W\'', ID=439)
+		Map(V='power=\'3000W\'', ID=440)
+		Map(V='power=\'3500W\'', ID=441)
+		Map(V='power=\'4000W\'', ID=442)
+		Map(V='power=\'4500W\'', ID=443)
+		Map(V='power=\'5000W\'', ID=444)
+		Map(V='power=\'5500W\'', ID=445)
+		Map(V='power=\'6000W\'', ID=446)
+		Map(V='power=\'6500W\'', ID=447)
+		Map(V='power=\'7000W\'', ID=448)
+		Map(V='power=\'7500W\'', ID=449)
+		Map(V='power=\'8000W\'', ID=422)
+		Map(V='power=\'8000W\' speed=\'1000rpm\'', ID=497)
+		Map(V='power=\'8000W\' speed=\'100rpm\'', ID=488)
+		Map(V='power=\'8000W\' speed=\'1100rpm\'', ID=498)
+		Map(V='power=\'8000W\' speed=\'1200rpm\'', ID=499)
+		Map(V='power=\'8000W\' speed=\'1300rpm\'', ID=500)
+		Map(V='power=\'8000W\' speed=\'1400rpm\'', ID=501)
+		Map(V='power=\'8000W\' speed=\'1500rpm\'', ID=502)
+		Map(V='power=\'8000W\' speed=\'1600rpm\'', ID=503)
+		Map(V='power=\'8000W\' speed=\'1700rpm\'', ID=504)
+		Map(V='power=\'8000W\' speed=\'1800rpm\'', ID=505)
+		Map(V='power=\'8000W\' speed=\'1900rpm\'', ID=506)
+		Map(V='power=\'8000W\' speed=\'2000rpm\'', ID=507)
+		Map(V='power=\'8000W\' speed=\'200rpm\'', ID=489)
+		Map(V='power=\'8000W\' speed=\'300rpm\'', ID=490)
+		Map(V='power=\'8000W\' speed=\'400rpm\'', ID=491)
+		Map(V='power=\'8000W\' speed=\'500rpm\'', ID=492)
+		Map(V='power=\'8000W\' speed=\'600rpm\'', ID=493)
+		Map(V='power=\'8000W\' speed=\'700rpm\'', ID=494)
+		Map(V='power=\'8000W\' speed=\'800rpm\'', ID=495)
+		Map(V='power=\'8000W\' speed=\'900rpm\'', ID=496)
+		Map(V='power=\'8500W\'', ID=450)
+		Map(V='power=\'9000W\'', ID=451)
+		Map(V='power=\'9500W\'', ID=452)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+$end 'SolutionBlock4'
+$begin 'OptimetricsResult1'
+	V=2
+	svi('power', '8000W')
+	vi('speed', '600rpm', '600rpm', '600rpm')
+	gver(1)
+	gi('RMSLineCurrentParameter', 1, 628, 'mA')
+	gi('RMSPhaseCurrentParameter', 1, 628, 'mA')
+	gi('EfficiencyParameter', 1, 628, '')
+	gi('ArmatureCopperLossParameter', 1, 628, 'mW')
+	gi('OutputPowerParameter', 1, 628, 'mW')
+	gi('RatedTorqueParameter', 1, 628, 'NewtonMeter')
+	gi('RMSPhaseVoltageParameter', 1, 628, 'mV')
+	var(8.000000000000000e+003, 1.047197551196598e+001)
+	gvs(1.047197551196598e+001, 1.127560000000000e+002, 1.127560000000000e+002, 1.025750000000000e+001, 7.001520000000000e+004, 8.003990000000000e+003, 7.643250000000001e+002)
+	var(8.000000000000000e+003, 2.094395102393195e+001)
+	gvs(2.094395102393195e+001, 6.204860000000000e+001, 6.204860000000000e+001, 2.737830000000000e+001, 2.120200000000000e+004, 8.003250000000000e+003, 3.821270000000000e+002)
+	var(8.000000000000000e+003, 3.141592653589793e+001)
+	gvs(3.141592653589793e+001, 3.346510000000000e+001, 3.346510000000000e+001, 5.630860000000000e+001, 6.167350000000000e+003, 8.005950000000000e+003, 2.548370000000000e+002)
+	var(8.000000000000000e+003, 4.188790204786390e+001)
+	gvs(4.188790204786390e+001, 1.772270000000000e+001, 1.772270000000000e+001, 8.169440000000000e+001, 1.729710000000000e+003, 8.006100000000000e+003, 1.911320000000000e+002)
+	var(8.000000000000000e+003, 5.235987755982988e+001)
+	gvs(5.235987755982988e+001, 1.030890000000000e+001, 1.030890000000000e+001, 9.227119999999999e+001, 5.852430000000001e+002, 8.004060000000000e+003, 1.528660000000000e+002)
+	var(8.000000000000000e+003, 6.283185307179586e+001)
+	gvs(6.283185307179586e+001, 9.757970000000000e+000, 9.757970000000000e+000, 9.268770000000001e+001, 5.243630000000001e+002, 8.006640000000000e+003, 1.274300000000000e+002)
+	var(8.000000000000000e+003, 7.330382858376184e+001)
+	gvs(7.330382858376184e+001, 1.172390000000000e+001, 1.172390000000000e+001, 9.002170000000000e+001, 7.569310000000000e+002, 8.005700000000000e+003, 1.092130000000000e+002)
+	var(8.000000000000000e+003, 8.377580409572781e+001)
+	gvs(8.377580409572781e+001, 1.407460000000000e+001, 1.407460000000000e+001, 8.653570000000001e+001, 1.090890000000000e+003, 8.004340000000000e+003, 9.554480000000000e+001)
+	var(8.000000000000000e+003, 9.424777960769379e+001)
+	gvs(9.424777960769379e+001, 1.622940000000000e+001, 1.622940000000000e+001, 8.308090000000000e+001, 1.450490000000000e+003, 8.003760000000000e+003, 8.492260000000000e+001)
+	var(8.000000000000000e+003, 1.047197551196598e+002)
+	gvs(1.047197551196598e+002, 1.809850000000000e+001, 1.809850000000000e+001, 7.994170000000000e+001, 1.803850000000000e+003, 8.006730000000000e+003, 7.645869999999999e+001)
+	var(8.000000000000000e+003, 1.151917306316258e+002)
+	gvs(1.151917306316258e+002, 1.969800000000000e+001, 1.969800000000000e+001, 7.716980000000000e+001, 2.136760000000000e+003, 8.005310000000000e+003, 6.949550000000001e+001)
+	var(8.000000000000000e+003, 1.256637061435917e+002)
+	gvs(1.256637061435917e+002, 2.107120000000000e+001, 2.107120000000000e+001, 7.474110000000000e+001, 2.445080000000000e+003, 8.000370000000000e+003, 6.366490000000000e+001)
+	var(8.000000000000000e+003, 1.361356816555577e+002)
+	gvs(1.361356816555577e+002, 2.225970000000000e+001, 2.225970000000000e+001, 7.263360000000000e+001, 2.728690000000000e+003, 8.002370000000000e+003, 5.878230000000000e+001)
+	var(8.000000000000000e+003, 1.466076571675237e+002)
+	gvs(1.466076571675237e+002, 2.329480000000000e+001, 2.329480000000000e+001, 7.079540000000000e+001, 2.988340000000000e+003, 8.007010000000000e+003, 5.461520000000000e+001)
+	var(8.000000000000000e+003, 1.570796326794897e+002)
+	gvs(1.570796326794897e+002, 2.815410000000000e+001, 2.815410000000000e+001, 6.296690000000000e+001, 4.365050000000000e+003, 8.006110000000000e+003, 5.096850000000000e+001)
+	var(8.000000000000000e+003, 1.675516081914556e+002)
+	gvs(1.675516081914556e+002, 2.500270000000000e+001, 2.500270000000000e+001, 6.772740000000000e+001, 3.442610000000000e+003, 8.007610000000000e+003, 4.779190000000000e+001)
+	var(8.000000000000000e+003, 1.780235837034216e+002)
+	gvs(1.780235837034216e+002, 2.571320000000000e+001, 2.571320000000000e+001, 6.642910000000001e+001, 3.641050000000000e+003, 8.002320000000000e+003, 4.495090000000000e+001)
+	var(8.000000000000000e+003, 1.884955592153876e+002)
+	gvs(1.884955592153876e+002, 3.055810000000000e+001, 3.055810000000000e+001, 5.894130000000000e+001, 5.142300000000000e+003, 8.004270000000000e+003, 4.246400000000000e+001)
+	var(8.000000000000000e+003, 1.989675347273536e+002)
+	gvs(1.989675347273536e+002, 2.692280000000000e+001, 2.692280000000000e+001, 6.423170000000000e+001, 3.991670000000000e+003, 8.002190000000000e+003, 4.021860000000000e+001)
+	var(8.000000000000000e+003, 2.094395102393195e+002)
+	gvs(2.094395102393195e+002, 2.744130000000000e+001, 2.744130000000000e+001, 6.328840000000000e+001, 4.146890000000000e+003, 8.003790000000000e+003, 3.821530000000000e+001)
+$end 'OptimetricsResult1'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin 'OptimetricsResults'
+	'0:3'='OptimetricsResult1'
+$end 'OptimetricsResults'
+$begin '$index$'
+	$begin '$index$'
+		OptimetricsResults(pos=14230, lin=242, lvl=0)
+		SolutionBlock77(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=6781, lin=122, lvl=0)
+		SolutionBlock78(pos=7060, lin=127, lvl=0)
+		SolutionBlock4(pos=7176, lin=133, lvl=0)
+		OptimetricsResult1(pos=9176, lin=186, lvl=0)
+		ResponseSurfaceCache(pos=14148, lin=239, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=14312, lin=245, lvl=0)
+	$end '$index$'
+$end '$index$'

@@ -1,0 +1,152 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002017, month=000000000010, day=000000000024, hour=000000000020, min=000000000035, sec=000000000017)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003673, lin=000000000133, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock2'
+	SolutionName='Transient'
+	SolutionID=64
+	V=67
+	$begin 'States'
+		F(VID=65, Ver=67)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(104, 0, 106, 0.005008049999999993, 108, 0.009958229999999981, 110, 0.018)
+		$begin 'DataMap'
+			VID=65
+			Ver=67
+			Field(DblID=104, Dir='DV65_SOL64_V67.Field104/')
+			Field(DblID=106, Dir='DV65_SOL64_V67.Field106/')
+			Field(DblID=108, Dir='DV65_SOL64_V67.Field108/')
+			Field(DblID=110, Dir='DV65_SOL64_V67.Field110/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PD'
+		NextUniqueID=7
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=0
+			PD(VID=65, Ver=0, File='DV65_SOL64_PD0_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=0
+			PD(VID=65, Ver=0, File='DV65_SOL64_PD1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Ver=0
+			PD(VID=65, Ver=0, File='DV65_SOL64_PD2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			Ver=0
+			PD(VID=65, Ver=0, File='DV65_SOL64_PD3_V0.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=65, Ver=67, File='DV65_SOL64_NFSP10_V67.sd')
+		$end 'SubData'
+	$end 'NFSP'
+	$begin 'EngineSolutionData'
+		Data(VID=65, Ver=67, Dir='DV65_SOL64_V67.Data/')
+	$end 'EngineSolutionData'
+	$begin 'ECE'
+		ECE(VID=65, Ver=67, Dir='DV65_SOL64_V67.ECE/')
+	$end 'ECE'
+$end 'SolutionBlock2'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=63, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=63, Instance=\'SolutionDefinition\', Solution=64, VersionID=67)'='SolutionBlock2'
+$end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SimSetupID=63
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(103, 0, 105, 0.005008049999999993, 107, 0.009958229999999981, 109, 0.018)
+		$begin 'DataMap'
+			VID=65
+			Ver=67
+			M(DblID=103, Dir='DV65_S63_V67.cmesh103/')
+			M(DblID=105, Dir='DV65_S63_V67.cmesh105/')
+			M(DblID=107, Dir='DV65_S63_V67.cmesh107/')
+			M(DblID=109, Dir='DV65_S63_V67.cmesh109/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'StartingMesh'
+		IDDblMap(101, -1)
+		$begin 'DataMap'
+			VID=65
+			Ver=0
+			SM(DblID=101, Dir='DV65_S63_V0.smesh101/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'MeshOps'
+		OPS(VID=65, Ver=0, ID=0, ID=1, ID=4)
+	$end 'MeshOps'
+	$begin 'Profiles'
+		P(VID=65, Ver=0, File='DV65_S63_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=65, Ver=0, Dir='DV65_S63_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=65, Ver=0, Dir='DV65_S63_V0_MGI/')
+	$end 'MeshGeomInfo'
+	$begin 'AMOsetup'
+		AMO(VID=65, Ver=0, File='DV65_S63_V0.amo')
+	$end 'AMOsetup'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign3'
+	VersionID=60
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=111
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='fractions=\'4\'', ID=65)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=65, Ver=60, Dir='DV65_V60.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=65, Ver=60, Dir='DV65_MI0_V60.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=3163, lin=110, lvl=0)
+		SolutionBlock2(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1801, lin=62, lvl=0)
+		SolutionBlock3(pos=2078, lin=67, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3673, lin=133, lvl=0)
+	$end '$index$'
+$end '$index$'

@@ -1,0 +1,52 @@
+$begin 'ConEngineContinueData'
+	$begin 'MeshSettings'
+		$begin 'GlobalSurfApproximation'
+			CurvedSurfaceApproxChoice='UseSlider'
+			SliderMeshSettings=5
+		$end 'GlobalSurfApproximation'
+		$begin 'GlobalModelRes'
+			UseAutoLength=true
+		$end 'GlobalModelRes'
+		MeshMethod='AnsoftClassic'
+	$end 'MeshSettings'
+	$begin 'MeshOperations'
+		NextUniqueID=0
+		MoveBackwards=false
+		$begin 'Length_Coil'
+			RefineInside=true
+			ID=0
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(2254, 2266, 2277, 2288, 2299, 2310, 2525, 2538, 2549, 2560, 2571, 2582)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='6.83382mm'
+		$end 'Length_Coil'
+		$begin 'Length_Mag'
+			RefineInside=true
+			ID=1
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(2804, 2816, 2827, 2838, 2849)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='2.75mm'
+		$end 'Length_Mag'
+		$begin 'Length_Main'
+			RefineInside=true
+			ID=4
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(521, 2797, 6, 494, 3030, 489)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='5.3mm'
+		$end 'Length_Main'
+	$end 'MeshOperations'
+$end 'ConEngineContinueData'
