@@ -1,7 +1,0 @@
-$begin 'CacheDataVersion'
-	DataVersion=3
-$end 'CacheDataVersion'
-$begin 'VariableValues'
-	fractions='4'
-	power='8000W'
-$end 'VariableValues'
