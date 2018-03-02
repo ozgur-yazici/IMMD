@@ -1,0 +1,55 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000003, day=000000000002, hour=000000000014, min=000000000032, sec=000000000010)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001244, lin=000000000036, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	SolutionName='Performance'
+	SolutionID=25
+	V=1185
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock3'
+	'SolutionKey(SimSetup=24, Instance=\'SetupDefinition\', Solution=-1, VersionID=1185)'='SolutionBlock2'
+	'SolutionKey(SimSetup=24, Instance=\'SolutionDefinition\', Solution=25, VersionID=1185)'='SolutionBlock1'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SimSetupID=24
+	SimSetupName='Setup1'
+	VersionID=1185
+	SolveSetupID=0
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	ProductName=''
+	CircuitName='RMxprtDesign1'
+	VersionID=1185
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1198
+	MoveBackwards=false
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+$end 'SolutionBlock3'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock3(pos=1015, lin=25, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=617, lin=14, lvl=0)
+		SolutionBlock2(pos=899, lin=19, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1244, lin=36, lvl=0)
+	$end '$index$'
+$end '$index$'
