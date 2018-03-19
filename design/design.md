@@ -24,7 +24,7 @@
 
 Slot shape:
 
-![slot](slot.png)
+![slot](slot.PNG)
 
 - Stator Slot
   - hs0 (mm):  	1.5
